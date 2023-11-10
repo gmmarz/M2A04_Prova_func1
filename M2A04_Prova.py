@@ -41,7 +41,7 @@ def verificar_situacao(media:float) -> str:
         situacao = f'Erro - Média = {media} que está fora do range de 0 a 10.\nVerificar notas e tentar novamente'
     return situacao
 
-print('Programa verifica situação')
+print('Programa verificará se aluno foi aprovado pela media das notas.')
 
 lst_notas = []
 
